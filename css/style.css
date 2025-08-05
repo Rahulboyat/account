@@ -9961,6 +9961,11 @@ h6,
 
 /* <************ menual css  */
 
+.banner-img img{
+  width:450px;
+  height:450px;
+}
+
 .service-item .subtitle ul li{
   margin: 8px 0px;
 }
