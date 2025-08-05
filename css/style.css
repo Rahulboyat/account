@@ -111,6 +111,11 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  
+}
+
+ul li{
+  list-style: none;
 }
 
 dt {
@@ -9953,3 +9958,34 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+/* <************ menual css  */
+
+.service-item .subtitle ul li{
+  margin: 8px 0px;
+}
+.service-item .subtitle ul li i{
+  margin-right: 5px;
+  color: #27391C;
+}
+
+.service-item .more_btn{
+  text-align: left;
+}
+
+.service-item .more_btn .btn{
+  padding: 10px 15px ;
+  text-align: center;
+  text-transform: uppercase;
+  /* background-color: #27391C; */
+  background-color: #FFAA17;
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  outline: none;
+
+}
+
+
+/* <************ menual css  */
