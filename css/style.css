@@ -19,7 +19,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #FFAA17;
+  /* --primary: #FFAA17; */
+  --primary: #7ed957;
   --secondary: #BDBDBF;
   --success: #28a745;
   --info: #17a2b8;
@@ -157,7 +158,7 @@ sup {
 }
 
 a {
-  color: #FFAA17;
+  color: #7ed957;
   text-decoration: none;
   background-color: transparent;
 }
@@ -317,6 +318,20 @@ legend {
   color: inherit;
   white-space: normal;
 }
+
+@media (min-width: 724px){
+  .banner-img .banner_slider .item{
+    height:500px !important;
+  }
+}
+
+@media (max-width: 600px){
+  .banner-img .banner_slider .item{
+    height:210px !important;
+  }
+}
+
+
 
 @media (max-width: 1200px) {
   legend {
@@ -2377,14 +2392,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #FFAA17;
-  border-color: #FFAA17;
+  background-color: #7ed957;
+  border-color: #7ed957;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #f09800;
-  border-color: #e39000;
+  background-color: #4f864b;
+  border-color: #4f864b;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -6361,7 +6376,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FFAA17 !important;
+  background-color: #7ed957 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9531,7 +9546,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FFAA17 !important;
+  color: #7ed957 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9779,7 +9794,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FFAA17;
+  color: #7ed957;
 }
 
 @media (max-width: 991.98px) {
@@ -9920,7 +9935,7 @@ h6,
 
 .testimonial-carousel .owl-dot.active {
   width: 40px;
-  background: #FFAA17;
+  background: #7ed957;
 }
 
 .testimonial-carousel .owl-item img {
@@ -9938,7 +9953,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item h5 {
-  color: #FFAA17;
+  color: #7ed957;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item::before {
@@ -9960,10 +9975,14 @@ h6,
 }
 
 /* <************ menual css  */
+ .banner-img .item img{
+width:100%;
+height:100%;
+} 
 
-.banner-img img{
-  width:450px;
-  height:450px;
+.banner-img .banner_slider .item{
+  width:100%;
+  height:510px;
 }
 
 .service-item .subtitle ul li{
@@ -9983,7 +10002,7 @@ h6,
   text-align: center;
   text-transform: uppercase;
   /* background-color: #27391C; */
-  background-color: #FFAA17;
+  background-color: #7ed957;
   color: black;
   font-size: 13px;
   letter-spacing: 1px;
@@ -9991,6 +10010,7 @@ h6,
   outline: none;
 
 }
+
 
 
 /* <************ menual css  */
